@@ -399,6 +399,17 @@ footer{
 
     /*ACERCA DE MI */
 
+    .toggle-menu{
+        position: fixed;
+        top: .5rem ;
+        right: 85%;
+        cursor: pointer;
+        filter:invert(1);
+        width: fit-content;
+        z-index: 100000;
+    }
+
+
     .home .contenido-banner .redes a{
         color: var(--color-claro);
         display: inline-block;
